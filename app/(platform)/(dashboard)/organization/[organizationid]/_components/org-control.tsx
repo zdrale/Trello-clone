@@ -12,9 +12,9 @@ export const OrgControl = () => {
     if (!setActive) return;
 
     setActive({
-      organization: params.organizationId as string,
+      organization: params.organizationid as string,
     });
-  }, [setActive, params.organizationId]);
+  }, [setActive, params.organizationid]);
 
   return null;
 };
